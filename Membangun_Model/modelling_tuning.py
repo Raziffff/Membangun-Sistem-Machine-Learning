@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/19bZozt7figFIvk9G7IzDHXzUneZJHFXJ
 """
 
-!pip install mlflow==2.19.0 mlflow-skinny==2.19.0 dagshub==0.5.10 imbalanced-learn==0.13.0
-
 import pandas as pd
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.svm import SVC
